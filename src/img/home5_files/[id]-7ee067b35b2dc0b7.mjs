@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[40980],{23340:(_,D,A)=>{(window.__PWS_LOADED_HANDLERS__=window.__PWS_LOADED_HANDLERS__||[]).push(["www/ideas/[interest]/[id]",function(){return A(450494).Z}])},450494:(_,D,A)=>{"use strict";A.d(D,{Z:()=>L}),A(667294);let L=A(801219).Z}},_=>{var D=D=>_(_.s=D);_.O(0,[97270,83119,79968,76594,11930,21876,6575,60888,6581,57405,33731,3642,34851,60343,74072,7582,96282,27854,30706],()=>D(23340)),_.O()}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/www/ideas/[interest]/[id]-7ee067b35b2dc0b7.mjs.map

@@ -1,0 +1,7 @@
+.customImg {
+    border-radius: 12px; /* Adjust the value to control the roundness */
+    border: 2px solid #ccc; /* Border color and thickness */
+    width: 100%; /* Ensures the image fits the container */
+    height: auto; /* Maintains the aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
+}

@@ -1,0 +1,32 @@
+.services-container {
+    background-color: #219653;
+    padding: 36px;
+    margin-top: 12px;
+  }
+  
+  .content-container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .title {
+    text-align: center;
+    color: #060606;
+  }
+  
+  .description {
+    text-align: center;
+    color: #c3c3c3;
+    margin-top: 12px;
+  }
+  
+  .services-list {
+    color: #f6f7f8;
+    margin-top: 24px;
+    font-style: italic;
+  }
+  
+  .service-item {
+    margin-bottom: 16px;
+  }
+  

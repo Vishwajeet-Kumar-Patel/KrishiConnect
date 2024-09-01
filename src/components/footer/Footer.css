@@ -1,0 +1,149 @@
+.footer-container {
+  padding: 2rem;
+  background-color: #1b4d3e;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.footer-logo-description {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-subtitle {
+  font-size: 1rem;
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-link {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.footer-feedback {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer-feedback-button {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: underline;
+  margin-left: 0.5rem;
+}
+
+.footer-social-title {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 40px;
+  margin: 0 0.5rem;
+}
+
+.footer-credit {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.footer-background {
+  width: 150px;
+  margin-top: 0;
+}
+
+.footer-education-title {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.footer-divider {
+  width: 2px;
+  height: 220px;
+  background-color: white;
+  margin: 20px auto; /* Centers the divider */
+}
+
+.footer-credit {
+  font-size: 16px;
+  color: white;
+}
+
+.footer-background {
+  width: 80px;
+  height: auto;
+  margin-top: 40px;
+}
+
+.footer-education-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-bottom {
+  background-color: #1b4d3e;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto; /* Pushes the bottom section to the bottom */
+}
+
+.footer-copyright {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}

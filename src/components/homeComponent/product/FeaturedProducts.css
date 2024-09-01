@@ -1,0 +1,12 @@
+.featured-products-container {
+    padding: 20px;
+  }
+  
+  .featured-products-container h2 {
+    color: #333;
+  }
+  
+  .featured-products-container .product-item {
+    margin: 10px;
+  }
+  

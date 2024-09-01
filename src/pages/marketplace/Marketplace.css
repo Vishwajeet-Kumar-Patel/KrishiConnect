@@ -1,0 +1,96 @@
+/* Container styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Grid layout for products */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual product card styling */
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Product image styling */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Product name styling */
+  .card h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Product description styling */
+  .card p {
+    color: #666;
+  }
+  
+  /* Product price styling */
+  .card .price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Add to Cart button styling */
+  .card button {
+    background-color: #68ac5d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .card button:hover {
+    background-color: #4a8a40;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .card {
+      border: 1px solid #d0d0d0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
