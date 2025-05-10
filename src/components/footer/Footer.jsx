@@ -19,8 +19,8 @@ const Footer = () => {
           >
             <img src={logo} className="footer-logo" alt="" />
             <div className="footer-logo-description">
-              <h3 className="footer-title">AgriConnect</h3>
-              <p className="footer-subtitle">Enhancing Agriculture.</p>
+              <h3 className="footer-title">KrishiConnect</h3>
+              <p className="footer-subtitle">Farmer's Virtual Home</p>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-          <p className="footer-copyright">&copy; 2024 AgriConnect. All rights reserved.</p>
+          <p className="footer-copyright">&copy; 2024 KrishiConnect. All rights reserved.</p>
         </div>
     </div>
     

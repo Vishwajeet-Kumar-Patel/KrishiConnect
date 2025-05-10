@@ -13,7 +13,7 @@ import { isEmail, isEmpty, isValidPassword } from "../utils/validation";
 
 //Images
 import cross_black from "../img/cross_black.svg";
-import logo from "../img/logo.png";
+import logo from "../img/logo2.png";
 
 const Register = ({ onClick }) => {
   const [email, setEmail] = useState("");

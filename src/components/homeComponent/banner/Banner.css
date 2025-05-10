@@ -5,6 +5,7 @@
     z-index: 999;
 }
 
+
 .home1Img {
     opacity: 70%;
     background-color: rgba(0, 0, 0, 0.8);
@@ -18,4 +19,11 @@
 
 .slider-wrapper {
     height: 500px;
+}
+
+.tooltiptext {
+    color: white;
+    background-color: green;
+    width: 30px;
+    height: 37px;
 }

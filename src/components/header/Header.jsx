@@ -32,7 +32,7 @@ const Header = () => {
             alt="Logo"
           />
           <h3 className="text-md font-bold opacity-[.70]">
-            AgriConnect
+            KrishiConnect
           </h3>
         </div>
         <div className="flex-2 w-5/12 mx-auto">

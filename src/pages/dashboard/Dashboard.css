@@ -111,3 +111,9 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+  .text-\[\#4F4F4F\] {
+    --tw-text-opacity: 1;
+    color: rgb(79 79 79 / var(--tw-text-opacity));
+    font-size: 15px;
+}

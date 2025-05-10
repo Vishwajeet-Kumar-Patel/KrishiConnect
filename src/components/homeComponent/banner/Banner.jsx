@@ -79,10 +79,10 @@ const Banner = () => {
           <div>
             <div className="flex flex-col justify-center -mt-10 wrapper">
               <p className="text-2xl font-normal text-silver" >
-                Welcome to AgriConnect Marketplace
+                Welcome to KrishiConnect
               </p>
               <h1 className="text-4xl font-bold text-silver">
-                <span className="text-[#219654]">Sell and Buy</span> agricultural products <br /> with ease and convenience.
+                <span className="text-[#219654]">Sell, Buy & Rent</span> agricultural products <br /> with ease and convenience.
               </h1>
               <p className="text-lg font-bold mt-2 mb-4 text-silver">
                 Explore our marketplace or list your own products today.
@@ -95,14 +95,14 @@ const Banner = () => {
                   Explore Marketplace
                 </button>
                 <button
-                  onClick={() => navigate("/sell")}
+                  onClick={() => navigate("/addProduct")}
                   className="shadow-md mr-3 tooltip bg-[#219653] hover:bg-[#64a55a] text-white font-semibold text-lg w-[200px] py-2 px-2 rounded"
                 >
                   List Your Product
                 </button>
                 <i
                   onClick={SpeechRecognition.startListening}
-                  className="text-darkgreen tooltip cursor-pointer text-2xl mr-5 fa-solid fa-microphone"
+                  className="text-green tooltip cursor-pointer text-2xl mr-5 fa-solid fa-microphone"
                 >
                   <span className="tooltiptext"></span>
                 </i>

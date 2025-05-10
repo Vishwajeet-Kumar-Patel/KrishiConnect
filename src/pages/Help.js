@@ -45,7 +45,7 @@ const Help = () => {
 
   return (
     <div className="">
-      <div className="bg-[#68AC5D] p-9 content-center">
+      <div className="bg-[green] p-9 content-center">
         <h1 className="font-bold text-5xl text-center text-white m-8">
           How can we Help?
         </h1>
@@ -79,7 +79,7 @@ const Help = () => {
       <div className="w-100">
         <div className="p-9 flex w-screen">
           <h1 className="text-xl mr-5 font-semibold">Still need help?</h1>
-          <button className="bg-[#68AC5D] text-white p-3 rounded-lg" onClick={() => navigate("/contact")}>
+          <button className="bg-[green] text-white p-3 rounded-lg" onClick={() => navigate("/contact")}>
             Contact Support
           </button>
         </div>

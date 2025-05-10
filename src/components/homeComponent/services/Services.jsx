@@ -3,11 +3,11 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services-container bg-grey mt-3 p-9">
+    <div className="mb-10 p-12 bg-gradient-to-r from-orange-500 to-green-500">
       <div className="content-container flex justify-center flex-col p-9">
         <h1 className="title text-4xl mt-2 font-bold m-auto text-black">Our Services</h1>
         <p className="description mt-3 text-lg font-semibold m-auto text-silver ">
-          At AgriConnectt, we provide a wide range of services tailored to meet the needs of farmers. From advanced agricultural tools and equipment to expert advice on crop management, we ensure that our services help farmers achieve maximum productivity.
+          At KrishiConnect, we provide a wide range of services tailored to meet the needs of farmers. From advanced agricultural tools and equipment to expert advice on crop management, we ensure that our services help farmers achieve maximum productivity.
         </p>
         <ul className="list-decimal ml-[90px] list-inside text-white text-l font-style-italic">
             <li className="text-2xl mr-4 my-4">Quality Seeds and Fertilizers.</li>

@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 
 //Components
 import InputField from "../components/input/InputField";
-import Loader from "../components/loader/";
+import Loader from "../components/loader";
 
 //Functions
 import { SuccessMsg, ErrorMsg } from "../components/alerts";
@@ -21,7 +21,7 @@ import {
 } from "../redux/actions";
 
 //Images
-import logo from "../img/logo.png";
+import logo from "../img/logo2.png";
 import cross_black from "../img/cross_black.svg";
 
 const Login = ({ onClick }) => {
@@ -150,12 +150,12 @@ const Login = ({ onClick }) => {
             : "hidden opacity-0 -translate-x-full"
         }`}
       >
-        <div className="bg-[#219653] h-screen flex justify-center align-center p-12">
+        <div className="bg-gradient-to-r from-orange-500 to-green-500 h-screen flex justify-center align-center p-12">
           <div className="rounded-2xl bg-white w-1/3 h-auto p-9 ">
             <form onSubmit={verify} className="flex flex-col relative">
               <div className="absolute -top-16 float-center flex flex-col left-1/2 -translate-x-1/2">
                 <img
-                  className="h-24 w-24 border-full mx-auto"
+                  className="h-24 w-24 border-full mx-auto rounded-2xl"
                   style={{
                     filter: "drop-shadow(0px 4px 4px rgba(104, 172, 93, 0.25))"
                   }}
@@ -252,17 +252,17 @@ const Login = ({ onClick }) => {
                 Login
               </button>
               <div
-                className="flex flex-col my-7 relative"
+                className="flex flex-col my-7 relative "
                 style={{ borderTop: "1px solid #4F4F4F" }}
               >
                 <h1
-                  className="rounded-full bg-white w-10 text-center p-2 absolute left-1/2 -top-6 -translate-x-1/2"
+                  className="rounded-full bg-white w-20 h-15 text-center absolute left-1/2 -top-6 -translate-x-1/2"
                   style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
                 >
                   OR
                 </h1>
               </div>
-              <p className="mb-3">Login Using Mobile No.</p>
+              <p className="mb-3 m-6">Login Using Mobile No.</p>
               <InputField
                 placeholder="Mobile No."
                 value={phone_number}
