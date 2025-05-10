@@ -9,7 +9,7 @@ const Help = () => {
 
   const booking_help = [
     {
-      heading: "Q: How do I place an order on AgriConnect ?",
+      heading: "Q: How do I place an order on KrishiConnect ?",
       content:
         "A: Browse our catalog, select the products you want, add them to your cart, and proceed to checkout to place your order.",
     },
